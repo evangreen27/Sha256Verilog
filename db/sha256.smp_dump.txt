@@ -1,0 +1,14 @@
+
+State Machine - |sha256|state
+Name state.WRITER state.PUSH state.READ state.PRECOMP state.INITW state.DELAY state.LOOP state.INITIAL state.PREP2 state.PREP state.IDLE 
+state.IDLE 0 0 0 0 0 0 0 0 0 0 0 
+state.PREP 0 0 0 0 0 0 0 0 0 1 1 
+state.PREP2 0 0 0 0 0 0 0 0 1 0 1 
+state.INITIAL 0 0 0 0 0 0 0 1 0 0 1 
+state.LOOP 0 0 0 0 0 0 1 0 0 0 1 
+state.DELAY 0 0 0 0 0 1 0 0 0 0 1 
+state.INITW 0 0 0 0 1 0 0 0 0 0 1 
+state.PRECOMP 0 0 0 1 0 0 0 0 0 0 1 
+state.READ 0 0 1 0 0 0 0 0 0 0 1 
+state.PUSH 0 1 0 0 0 0 0 0 0 0 1 
+state.WRITER 1 0 0 0 0 0 0 0 0 0 1 
